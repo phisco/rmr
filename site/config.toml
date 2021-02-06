@@ -1,0 +1,109 @@
+theme = "autophugo"
+baseURL = "https://rosamariarinaldi.it/"
+languageCode = "en-us"
+title = "Rosa Maria Rinaldi"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Rosa Maria Rinaldi"
+    email = "rosamariarinaldi@fastwebnet.it"
+
+[params]
+# Meta
+    description = "Rosa Maria Rinaldi"
+    keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    #msvalidate = ""
+    #googlesiteverification = ""
+    #thumb_width = 480
+    thumb_quality = 50
+    #full_width = 960
+    full_quality = 90
+    #column_count = 4
+    
+    # Headerbar links
+    # Do not put too many links here,
+    # it will break mobile appearance
+
+    [[params.header.links]]
+    name = "About"
+    url = "#footer"
+    icon = "fa-info-circle"
+    
+    # Footer panel
+    
+    [params.footer.paragraph]
+    headline = "Rosa Maria Rinaldi"
+    text = """Studi classici. Laurea in lettere e filosofia alla Statale di Milano, tesi in storia dell’arte. Poi, da allora ad oggi giornalismo specializzato in architettura e design. Interesse fondamentale per la marginalità, geografica, fisica, mentale e artistica. La pittura. Inizio da autodidatta, consapevole della libertà e della mancanza di insegnamenti accademici. Qualsiasi segno primitivo o contemporaneo, che manifesti spontaneità di gesto, colore, composizione, diventano per me un riferimento.
+
+Vive e lavora a Milano
+
+**Studi**
+
+Liceo classico. Laurea in lettere e filosofia alla Statale di Milano, tesi in storia dell’arte. Giornalismo specializzato in arte, architettura e design.
+
+La pittura. Qualsiasi segno primitivo o contemporaneo, che manifesti spontaneità di gesto, colore, composizione, diventa riferimento.
+
+**1990 – 2001 Mondi colore**
+
+Nascono i primi disegni: la forma è ottenuta dall’uso del colore, sciolto col calore della mano e steso con le dita.
+
+**2000 – 2012 Corpi leggeri e derive**
+
+Le categorie di tempo e spazio saltano, come nei sogni.
+
+**2010 – 2014 Painting photo**
+
+Alla pittura si aggiunge la fotografia. Architetture e paesaggi, fotografati, scomposti, sovrapposti, ricomposti, dipinti.
+
+**2010 – 2014 Mondi variati**
+
+Atlanti e mappe fatti a pezzi e incollati su tela in modo casuale. Grandi tele in bianco e nero.
+
+**2015 – 2017 Leggerezza Colorata**
+
+Colore e disegni si associano in libero equilibrio. Voli, danze, movimenti, salti, balzi e corse percorrono le tele su fondi rossi, viola e rosa accesi, verde primavera, gialli dorati."""
+    [params.footer.social]
+    headline = "Follow me"
+
+    [[params.footer.social.links]]
+    label = "Instagram"
+    url = "#"
+    icon = "fa-instagram"
+
+    # Contact form
+    
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'realEmail' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    
+    [params.footer.contact]
+    hide = true # Set this to true if you don't want to have a contact form on your site
+    realEmail = "example@example.org"
+    headline = "Get in touch"
+    buttonText = "Send"
+    resetText = "Reset"
+    
+    # 'warning' defines error messages for invalid inputs
+    [params.footer.contact.name]
+    text = "Name *"
+    warning = "Please, enter your name"
+
+    [params.footer.contact.email]
+    text = "Email *"
+    warning = "Please, enter your email."
+
+    [params.footer.contact.message]
+    text = "Message *"
+    warning = "Please, enter your message"
+    
+    # Copyright
+    [params.footer.copyright]
+    name = "Philippe Scorsolini"

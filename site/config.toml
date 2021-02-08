@@ -12,6 +12,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 # Meta
     description = "Rosa Maria Rinaldi"
     keywords = "phugo, hugo, photogallery, photoblog, hugo theme"
+    favicon= "favicon.png"
     #msvalidate = ""
     #googlesiteverification = ""
     #thumb_width = 480

@@ -1,5 +1,5 @@
 theme = "autophugo"
-baseURL = "https://rmr.phisco.dev/"
+baseURL = "https://rosamariarinaldi.it/"
 languageCode = "en-us"
 title = "Rosa Maria Rinaldi"
 disableKinds = ["taxonomy", "taxonomyTerm"]

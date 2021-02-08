@@ -4,6 +4,7 @@
             <div>
                 <section>
                     <h2>{{ with .Site.Params.footer.paragraph.headline }}{{ . | markdownify }}{{ end }}</h2>
+                    {{- .Site.Params.footer.video |  safeHTML }}
                     <p>{{ with .Site.Params.footer.paragraph.text }}{{ . | markdownify }}{{ end }}</p>
                 </section>
                 <section>

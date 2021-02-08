@@ -1,4 +1,11 @@
 <div id="main">
+    {{- if .Description -}}
+    <div class="inner header-description">
+      <section>
+        <p>{{- .Description | markdownify -}}</p>
+      </section>
+    </div>
+    {{- end -}}
     <div class="flexrow">
 
     {{- /* Things in site config */}}
@@ -17,6 +24,9 @@
         {{- $title := .Title }}
         {{- $link := .Permalink }}
 
+        {{- if and (not (isset .Params "albumthumb")) (isset .Params "video") }}
+
+        {{- else }}
         {{- /* The path we need under the assets directory */}}
         {{- $imgpath := path.Join .Params.albumthumb }}
 
@@ -45,6 +55,7 @@
             {{- $sections := $.Scratch.Get "sections" }}
             {{- $sections := $sections | append $new_sect }}
             {{- $.Scratch.Set "sections" $sections }}
+        {{- end }}
         {{- end }}
     {{- end }}
     {{- $sections := $.Scratch.Get "sections" }}

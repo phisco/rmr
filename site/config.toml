@@ -32,7 +32,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     
     # Footer panel
     [params.footer]
-    video = '<iframe width="560" height="315" src="https://www.youtube.com/embed/OauDrCZjB8c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+    video = '<iframe width="100%" style="max-width: 560px;" height="315" src="https://www.youtube.com/embed/OauDrCZjB8c" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
     
     [params.footer.paragraph]
     headline = "Rosa Maria Rinaldi"

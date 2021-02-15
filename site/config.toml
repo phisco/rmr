@@ -3,7 +3,7 @@ baseURL = "https://rosamariarinaldi.it/"
 languageCode = "en-us"
 title = "Rosa Maria Rinaldi"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-googleAnalytics = "G-BLVMDMD6QR"
+googleAnalytics = "UA-143758672-2"
 
 [Author]
     name = "Rosa Maria Rinaldi"
